@@ -26,6 +26,13 @@ public class DataTypesDemo2
 		char grade='B';
 		System.out.println(grade);
 		
+		boolean status1=true;
+		boolean status2=false;
+		System.out.println(status1+" "+status2);
+		
+		String person_name="John Kim";
+		System.out.println(person_name);
+		
 		
 		
 	}
