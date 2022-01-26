@@ -24,22 +24,31 @@ public class Operators {
 		a=100;
 		b=200;
 		
-		System.out.println(a>b); //100>200 false
-		System.out.println(a<b); // 100<200 true
+		//System.out.println(a>b); //100>200 false
+		//System.out.println(a<b); // 100<200 true
 		
 		//b=100;
-		System.out.println(a>=b); //100>=200 false
-		System.out.println(a<=b); //100<=200 true
+		//System.out.println(a>=b); //100>=200 false
+		//System.out.println(a<=b); //100<=200 true
 		
-		System.out.println(a==b); // 100==200 false
-		System.out.println(a!=b); //true
+		//System.out.println(a==b); // 100==200 false
+		//System.out.println(a!=b); //true
 	
 	
 		
 		//Logical Operators && || !
 		//Logical Operators used between 2 booleans values
 		//Returns true/false (boolean)
-	
+		
+		boolean x=true;
+		boolean y=false;
+		
+		System.out.println(x && y); // false if both values true will return true if not false
+		System.out.println(x || y); // true if either one is true give true
+		System.out.println(!x); //false
+		System.out.println(!y); //true
+		
+		System.out.println((10>20) && (20>10)); //false && true = false
 	
 	
 	}
