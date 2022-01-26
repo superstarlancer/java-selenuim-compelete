@@ -48,7 +48,7 @@ public class Operators {
 		System.out.println(!x); //false
 		System.out.println(!y); //true
 		
-		System.out.println((10>20) && (20>10)); //false && true = false
+		//System.out.println((10>20) && (20>10)); //false && true = false
 	
 	
 	}
