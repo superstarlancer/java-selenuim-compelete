@@ -33,8 +33,6 @@ public class DataTypesDemo2
 		String person_name="John Kim";
 		System.out.println(person_name);
 		
-		
-		
 	}
 
 }
