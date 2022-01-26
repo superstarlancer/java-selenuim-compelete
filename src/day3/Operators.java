@@ -11,8 +11,26 @@ public class Operators {
 		//Arithmetic Operators + - * / %
 		
 		
-		System.out.println(a+b);
+		System.out.println("Addition of a and b is "+(a+b));
+		System.out.println("Subtraction of a and b is "+(b-a));
+		System.out.println("Multiplication of a and b is "+(a*b));
+		System.out.println("Division of a and b is "+(b/a));
+		System.out.println("Modulus Division of a and b is "+(b%a));
 
+		//Relational/Comparison Operators > >= < <= != ==
+		//Relational operators always return true/false (boolean values)
+	
+	
+		a=100;
+		b=200;
+		
+		System.out.println(a>b); //100>200 false
+		System.out.println(a<b); // 100<200 true
+	
+	
+	
+	
+	
 	}
 
 }
