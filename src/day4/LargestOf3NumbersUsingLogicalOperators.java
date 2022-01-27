@@ -9,7 +9,7 @@ if c>a && c>b —> c is largest
 public class LargestOf3NumbersUsingLogicalOperators {
 
 	public static void main(String[] args) {
-		int a=300, b=700, c=100;
+		int a=300, b=800, c=100;
 		
 		if(a>b && a>c) 
 		{
