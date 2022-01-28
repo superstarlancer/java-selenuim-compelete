@@ -3,14 +3,13 @@ package day4;
 public class SwitchCaseDemo {
 
 	public static void main(String[] args) {
-		int weekno=5;
+		int weekno=4;
 		
 		switch(weekno) 
 		{
 		
 		case 1 : System.out.println("Sunday");
 					break;
-
 		case 2 : System.out.println("Monday");
 					break;
 		case 3 : System.out.println("Tuesday");
@@ -23,7 +22,7 @@ public class SwitchCaseDemo {
 					break;
 		case 7 : System.out.println("Saturday");
 					break;
-		
+		default : System.out.println("Invalid week number");
 		}
 
 	}

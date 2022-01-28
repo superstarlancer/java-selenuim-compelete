@@ -6,7 +6,7 @@ public class Operators {
 		//int a=10;
 		//int b=20;
 		
-		int a=10, b=20;
+		//int a=10, b=20;
 		
 		//Arithmetic Operators + - * / %
 		
@@ -21,8 +21,8 @@ public class Operators {
 		//Relational operators always return true/false (boolean values)
 	
 	
-		a=100;
-		b=200;
+		//a=100;
+		//b=200;
 		
 		//System.out.println(a>b); //100>200 false
 		//System.out.println(a<b); // 100<200 true
