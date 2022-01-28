@@ -23,17 +23,51 @@ public class WhileloopDemo {
 //		System.out.println(i);
 //		i=i+2;
 //	}
-
-	int i=2;
-	while(i<=10) 
-	{
-		if(i%2==0) 
-		{
-			System.out.println(i);	
-		}
-		i++;
 		
+		
+		
+//
+//	int i=2;
+//	while(i<=10) 
+//	{
+//		if(i%2==0) 
+//		{
+//			System.out.println(i);	
+//		}
+//		i++;
+//		
+//	}
+		
+	//Example4: Print Odd number between 1...10 (1,3,5,7,9)
+		/*int i = 1;
+		while(i<=10) 
+		{
+			System.out.println(i);
+			i=i+2;
+		}*/
+		
+		/*int i=2;
+		while(i<=10) 
+		{
+			if(i%2!=0) 
+			{
+				System.out.println(i);	
+			}
+			i++;
+			
+		}*/		
+		
+		
+		
+	//Example5: Print 1..10 in descending order	
+	
+	int i=10;
+	while(i>0) 
+	{
+		System.out.println(i);
+		i--;
 	}
+	
 	
 	
 
