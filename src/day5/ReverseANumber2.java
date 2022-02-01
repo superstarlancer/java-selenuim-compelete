@@ -10,9 +10,9 @@ public class ReverseANumber2 {
 		System.out.println("Enter a Number:\s");
 		
 		int num=sc.nextInt();
-		StringBuffer rev;
-		StringBuffer sb=new StringBuffer(String.valueOf(num))
 		
+		StringBuffer sb=new StringBuffer(String.valueOf(num));
+		StringBuffer rev=sb.reverse();
 		System.out.println("Reverse Number is:\s"+rev);
 
 	}
