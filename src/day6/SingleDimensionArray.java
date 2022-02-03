@@ -38,6 +38,7 @@ public class SingleDimensionArray {
 		
 		
 		//Enhanced for loop/for each loop
+		//x captures all values into a single variable
 		for(int x:a) //a represents all array values with one variable
 		{
 			System.out.println(x);
