@@ -52,7 +52,7 @@ public class StringMethods {
 		System.out.println(s.trim().length()); //10 all spaces removed
 		
 		
-		//*charAt() returns a single character based on the index starting at 0
+		//*charAt() returns a single character based on the index starting at 0, checks the sequence not the characters like sel or len mium
 
 		s="welcome";
 		System.out.println(s.charAt(5)); //returns m
@@ -62,7 +62,18 @@ public class StringMethods {
 		
 		//if it conains sel return true if not return false
 		s="selenium";
-		System.out.println(s.contains("sel"));
+		System.out.println(s.contains("sel")); //true
+		System.out.println(s.contains("Sel")); //false
+		System.out.println(s.contains("len")); //true
+		
+		//*equals() & equalsIgnoreCase() compares if two strings are equal and boolean values returned
+		s1="WELCOME";
+		s2="welcome";
+		
+		System.out.println(s1.equals(s2)); //false
+		
+				
+				
 		
 	}
 
