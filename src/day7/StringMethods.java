@@ -60,7 +60,9 @@ public class StringMethods {
 		
 		//*contains() returns if boolean value true or false
 		
+		//if it conains sel return true if not return false
 		s="selenium";
+		System.out.println(s.contains("sel"));
 		
 	}
 
