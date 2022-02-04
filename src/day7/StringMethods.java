@@ -9,7 +9,7 @@ public class StringMethods {
 		System.out.println(s);
 		
 		
-		//length() method returns the length of the string
+		//*length() method returns the length of the string
 		//must store in a variable
 		int len =s.length();
 		System.out.println(len);
@@ -18,7 +18,7 @@ public class StringMethods {
 		
 		System.out.println(s.length());
 		
-		//concat() method combines elements
+		//*concat() method combines elements
 		System.out.println(1+2); //3
 		System.out.println("abc" + "xyz"); //abcxyz
 		System.out.println(1 + "xyz"); //abcxyz
@@ -44,12 +44,18 @@ public class StringMethods {
 		
 		
 		
-		//trim() trims left and right characters
+		//*trim() trims left and right characters
 		s="   automation   ";
 		System.out.println(s);
 		System.out.println("Before Trimming:\s"+s.length()); //16
-		System.out.println(s.trim());
+		
+		System.out.println(s.trim().length()); //10 all spaces removed
+		
+		
+		//*charAt() returns a single character based on the index starting at 0
 
+		s="welcome";
+		System.out.println(s.charAt(5)); //returns m
 	}
 
 }
