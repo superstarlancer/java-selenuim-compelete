@@ -56,6 +56,12 @@ public class StringMethods {
 
 		s="welcome";
 		System.out.println(s.charAt(5)); //returns m
+		System.out.println(s.charAt(0)); //returns m
+		
+		//*contains() returns if boolean value true or false
+		
+		s="selenium";
+		
 	}
 
 }
