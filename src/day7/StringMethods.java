@@ -66,14 +66,49 @@ public class StringMethods {
 		System.out.println(s.contains("Sel")); //false
 		System.out.println(s.contains("len")); //true
 		
+		
+		
 		//*equals() & equalsIgnoreCase() compares if two strings are equal and boolean values returned
 		s1="WELCOME";
 		s2="welcome";
 		
 		System.out.println(s1.equals(s2)); //false
+		System.out.println(s1.equalsIgnoreCase(s2)); //true
 		
+		//*replace() replace single or multiple characters in a string
+		//replace m with an x
+		s="welcome to selenium automation testing";
+		System.out.println(s.replace('m', 'x')); //welcoxe to seleniux autoxation testing
+		System.out.println(s.replace("welcome", "goodbye")); //goodbye to selenium automation testing
+		
+		//*substring() extracts substring of the main string (starting index, ending index)
+		s="selenium";
+		
+		System.out.println(s.substring(0,3)); //sel
+		System.out.println(s.substring(4,8)); //nium
+		System.out.println(s.substring(1,3)); //el
+		
+		
+		//*toUpperCase() && toLowerCase();
+		s="WElcome";
+		System.out.println(s.toUpperCase()); //WELCOME
+		System.out.println(s.toLowerCase()); //welcome
+			
+		//*split() divides the string into multiple parts based on delimiter/separator
 				
-				
+		s="abc xyz";
+		String var[]=s.split(" ");
+		System.out.println(var[0]);
+		System.out.println(var[1]);
+		
+		
+		//split in three strings, need a delimiter which can be a @ or a space " " or ,
+		s="abc@xyz@pqr";
+		String lar[]=s.split("@");
+		System.out.println(lar[0]);
+		System.out.println(lar[1]);
+		System.out.println(lar[2]);
+		
 		
 	}
 
