@@ -5,7 +5,7 @@ public class SearchingElementInArray {
 	public static void main(String[] args)
 	{
 		
-
+	//Using normal loop
 	int a[]= {50,30,20,10,40};
 	
 	int num=10;
@@ -14,7 +14,7 @@ public class SearchingElementInArray {
 	//if the status variable is false it means the element was not found
 	//if the status variable is true it means the element was found
 	
-	for(int i=0; i<a.length;i++) 
+	/*for(int i=0; i<a.length;i++) 
 	{
 		if(a[i]==num) 
 		{
@@ -28,7 +28,26 @@ public class SearchingElementInArray {
 		if (status==false) 
 		{
 		System.out.println("Element Not Found");
+		}*/
+	
+	//Enhanced for loop
+	for(int x:a) 
+	{
+		if(x==num) 
+		{
+			System.out.println("Element Found");
+			status=true;
+			break;
 		}
+	}
+	if(status==false) 
+	{
+		System.out.println("Element Not Found");
+	}
+	
+	
+	
+	
 }
 	
 }
