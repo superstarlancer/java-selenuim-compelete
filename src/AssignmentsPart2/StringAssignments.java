@@ -22,6 +22,12 @@ public class StringAssignments {
 		//4. Write a Java program to get a substring of a given string between two specified positions
 		String p="yugoslavia";
 		System.out.println(p.substring(0,5));
+		
+		//5. Write a Java program to convert all the characters in a string to uppercase.
+		//6. Write a Java program to convert all the characters in a string to lowercase.
+		String s="iloverocky";
+		System.out.println(s.toUpperCase());
+		System.out.println(s.toLowerCase());
 				
 	}
 
