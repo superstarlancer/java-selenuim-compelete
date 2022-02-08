@@ -12,7 +12,7 @@ public class EmployeeMain
 		emp1.job="Manager";
 		emp1.empsal=50000;
 		
-		emp1.display();
+		emp1.display(); //calling the method
 		
 		Employee emp2=new Employee();
 		emp2.eid=102;
@@ -20,7 +20,7 @@ public class EmployeeMain
 		emp2.job="Programmer";
 		emp2.empsal=4000;
 		
-		emp2.display();
+		emp2.display(); //calling method
 			
 	}
 }
