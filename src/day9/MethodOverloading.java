@@ -48,6 +48,10 @@ public class MethodOverloading {
 		//mo.sum(10, 20, 10.5); //4
 		//mo.sum(10, 10.5); //3
 		
+		
+		//mo.sum(10.5,15.5)//throws an error, no implementation with this combo
+		//mo.sum(10.5,10); //throws an error, order of parameters is important
+		
 		//can also print all methods at same time
 	}
 
