@@ -42,8 +42,13 @@ public class MethodOverloading {
 	
 	public static void main(String[] args) 
 	{
-		MethodOverloading = new MethodOverloading();
-
+		MethodOverloading mo = new MethodOverloading();
+		//mo.sum(); //not passing arguments, java executes one with variables, method 1//
+		//mo.sum(100, 200); //java checks method with 2 arguments, method 2//
+		//mo.sum(10, 20, 10.5); //4
+		//mo.sum(10, 10.5); //3
+		
+		//can also print all methods at same time
 	}
 
 }
