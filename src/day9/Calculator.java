@@ -1,5 +1,5 @@
 package day9;
-
+//different ways to create a method
 public class Calculator 
 {
 	int x=10, y=20;
