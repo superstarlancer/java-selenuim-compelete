@@ -37,7 +37,7 @@ public class ConstructorOverloading {
 		//Constructor overloading is invoked at time of object creation
 		//ConstructorOverloading co=new ConstructorOverloading(); //1
 		//ConstructorOverloading co=new ConstructorOverloading(100,200); //2
-		ConstructorOverloading co=new ConstructorOverloading(100,200,15.5); //3
+		//ConstructorOverloading co=new ConstructorOverloading(100,200,15.5); //3
 	}
 
 }
