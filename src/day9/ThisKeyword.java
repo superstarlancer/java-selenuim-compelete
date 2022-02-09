@@ -4,10 +4,10 @@ public class ThisKeyword {
 
 	int x,y; //Global variables/ instance variables
 	
-	void setData(int a, int b)  //Local variables, access within method only
+	void setData(int x, int y)  //Local variables, access within method only
 	{
-		x=a;
-		y=b;
+		this.x=x; //refers to the class, x belongs to class
+		this.y=y; //representing the class, y belongs to class, if not method will be confused on what x y variables belong to class or method
 	}
 	
 	void display() 
