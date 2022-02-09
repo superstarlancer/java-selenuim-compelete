@@ -2,9 +2,9 @@ package day9;
 
 public class ThisKeyword {
 
-	int x,y;
+	int x,y; //Global variables/ instance variables
 	
-	void setData(int a, int b) 
+	void setData(int a, int b)  //Local variables, access within method only
 	{
 		x=a;
 		y=b;
