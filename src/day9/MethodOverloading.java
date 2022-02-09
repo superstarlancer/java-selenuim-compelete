@@ -37,7 +37,10 @@ public class MethodOverloading {
 		System.out.println(x+d);
 	}
 	
-	
+	void main() 
+	{
+		System.out.println("This is my own main method");
+	}
 	
 	
 	public static void main(String[] args) 
@@ -53,6 +56,8 @@ public class MethodOverloading {
 		//mo.sum(10.5,10); //throws an error, order of parameters is important
 		
 		//can also print all methods at same time
+		
+		mo.main();
 	}
 
 }
