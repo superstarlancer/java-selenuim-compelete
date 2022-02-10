@@ -18,23 +18,17 @@ public class StaticExample {
 	}	
 	
 	
-	
-	
+	//Can access everything, non-static METHOD, no restrictions, can access everything directly
+	void m()
+	{
+		System.out.println(a);
+		System.out.println(b);
+		m1();
+		m2();
+	}	
 	
 	
 
-	public static void main(String[] args) {
 
-		System.out.println(a); //can access directly because it is a static variable
-		m1(); //static variable
-		
-		//System.out.println(b); //incorrect, b is non-static, cannot access it directly
-		//m2(); //non-static method, cannot access it directly
-		
-		StaticExample se=new StaticExample(); //this is how we create an object
-		System.out.println(se.b);
-		se.m2();
-		
-	}
 
 }
