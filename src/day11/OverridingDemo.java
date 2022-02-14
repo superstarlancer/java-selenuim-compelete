@@ -14,7 +14,7 @@ class ICICI extends Bank
 {
 	 double roi() 
 	 {
-		 return 10.5; //verriding roi method
+		 return 10.5; //overriding roi method
 	 }
 }
 
