@@ -1,6 +1,6 @@
 package day12.interfaceconcept;
 
-public class PQR implements ABC, XYZ
+public class PQR extends MNO implements ABC, XYZ
 {
 
 	
@@ -19,6 +19,7 @@ public class PQR implements ABC, XYZ
 		PQR obj=new PQR();
 		obj.m1();
 		obj.m2();
+		obj.m3();
 
 	}
 
