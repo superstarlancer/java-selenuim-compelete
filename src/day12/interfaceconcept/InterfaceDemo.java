@@ -22,12 +22,25 @@ interface Shape
 }
 
 
-public class InterfaceDemo {
+public class InterfaceDemo implements Shape
+{
 
+	public void circle()
+	{
+		System.out.println("This is a Circle abstract method");
+	}
+	
 	public static void main(String[] args)
 	{
-		
+		//Shape s=new Shape(); //incorrect, bc we cannot instantitate interface, cannot create memory location
+		Shape s=new InterfaceDemo(); //correct, whichever class is
+		//InterfaceDemo s=new InterfaceDemo(); //correct
+		s.circle();
+		s.square();
+		Shape.rectangle(); //don't need object to access rectangle, bc it is static
 
+		System.out.println(Shape.length); //can access, static
+		System.out.println(Shape.width); //can access, static
 	}
 
 }
