@@ -24,9 +24,25 @@ public class DataConversionMethods {
 			System.out.println(s1dob+s2dob);*/
 			
 		//String --> Boolean
-			String status="true";
+			/*String status="true";
 			boolean b=Boolean.parseBoolean(status);
-			System.out.println(b);
+			System.out.println(b);*/
+			
+		//Int, double, char, boolean -->String
+			int a=10;
+			double d=10.5;
+			char c='a';
+			boolean b=true;
+			
+			String astr=String.valueOf(a);
+			String dstr=String.valueOf(d);
+			String cstr=String.valueOf(c);
+			String bstr=String.valueOf(b);
+			
+			System.out.println(astr);
+			System.out.println(dstr);
+			System.out.println(cstr);
+			System.out.println(bstr);
 
 	}
 
