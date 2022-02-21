@@ -28,10 +28,13 @@ public class ExceptionsDemo
 		System.out.println(a[pos]);*/
 		
 		
-		// Exception
+		//NumberFormatException
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a string");
-		sc.next();
+		System.out.println("Enter a string:");
+		String str=sc.next();
+		
+		Integer.parseInt(str); //converts string to #
+		int num=Integer.parseInt(str);
 		
 		
 		
