@@ -9,6 +9,7 @@ public class MyClass1
 	public static void main(String[] args) {
 	
 		Sample s=new Sample();
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int z=sc.nextInt();
