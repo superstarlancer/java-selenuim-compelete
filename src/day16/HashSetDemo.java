@@ -32,6 +32,17 @@ public class HashSetDemo {
 		myset.remove("Welcome"); //we don't have an index concept, have to specify value
 		System.out.println(myset);
 		
+		//inserting values - not possible
+		//myset.add(2,"welcome"); //incorrect, there is no insertion possible, no index value
+		
+		//retrieve the value from the hashset - not possible
+		//hashset.get(); //this method is not avail in hashset so it's incorrect
+		
+		//reading data from hashset
+		for(Object x:myset) 
+		{
+			System.out.println(x);
+		}
 
 	}
 
