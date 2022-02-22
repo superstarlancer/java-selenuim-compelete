@@ -2,15 +2,11 @@ package day16;
 
 import java.util.ArrayList;
 
-//ArrayList is a class which is implemented in List interface
-//
-//1)Heterogeneous data is allowed
-//
-//2)Insertion order —> preserved (Index)
-//
-//3)Duplicate elements- allowed
-//
-//4)Multiple nulls - allowed
+/*ArrayList is a class which is implemented in List interface
+1)Heterogeneous data is allowed
+2)Insertion order —> preserved (Index)
+3)Duplicate elements- allowed
+4)Multiple nulls - allowed*/
 
 public class ArrayListDemo {
 
