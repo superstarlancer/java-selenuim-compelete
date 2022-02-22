@@ -47,7 +47,23 @@ public class ArrayListDemo {
 		
 		//inserting value in the middle of the list
 		mylist.add(3,"java");
-		System.out.println("After adding element:" +mylist); //add(index,value)
+		System.out.println("After inserting element:" +mylist); //add(index,value)
+		
+		//read/retrieve the specific value from arraylist
+		System.out.println(mylist.get(2));
+		
+		//reading all the values from the arraylist
+		//for each iteration, a value will be stored in x and printed and so on
+		for(Object x:mylist) 
+		{
+			System.out.println(x);
+		}
+		
+		//clear the arraylist
+		mylist.clear();
+		System.out.println("After clearing:" +mylist); //no values in array list prints this[]
+		
+	
 	}
 
 }
