@@ -43,6 +43,15 @@ public class HashMapDemo {
 		{
 			System.out.println(hm.get(k));  //prints values
 		}
+		
+		for(Object k:hm.keySet()) 
+		{
+			System.out.println(k+"      "+hm.get(k));  //prints values
+		}
+		
+		//clear all
+		hm.clear();
+		System.out.println(hm); //prints {}
 	}
 
 }
