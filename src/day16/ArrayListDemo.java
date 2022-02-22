@@ -36,8 +36,18 @@ public class ArrayListDemo {
 		//size of arraylist
 		System.out.println(mylist.size());
 		
-		//display values from arraylist - insertion order preserved
+		//display values from arraylist - insertion order preserved [100, 10.5, Welcome, A, true, 100, null, null]
+
 		System.out.println(mylist);
+		
+		//remove values form arraylist
+		mylist.remove(5); //here 5 is index of 100
+		System.out.println("After removing element:" +mylist); //must print list again
+		
+		
+		//inserting value in the middle of the list
+		mylist.add(3,"java");
+		System.out.println("After adding element:" +mylist); //add(index,value)
 	}
 
 }
