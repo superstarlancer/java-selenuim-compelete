@@ -29,8 +29,8 @@ public class HashSetDemo {
 		System.out.println(myset);
 		
 		//remove value from set
-		
-		
+		myset.remove("Welcome"); //we don't have an index concept, have to specify value
+		System.out.println(myset);
 		
 
 	}
