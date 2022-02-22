@@ -43,6 +43,10 @@ public class HashSetDemo {
 		{
 			System.out.println(x);
 		}
+		
+		//clearing all values
+		myset.clear();
+		System.out.println(myset); //will return a [] after clearing values
 
 	}
 
