@@ -1,5 +1,8 @@
 package day17_webdriver;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 /*1)Open Web Browser (Chrome,Firefox,Edge)
 2)Open URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/) 
 3)Enter username (Admin)
@@ -15,7 +18,22 @@ public class FirstTestCase {
 	{
 		//1)Open Web Browser (Chrome,Firefox,Edge)
 		System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
-
+		
+		//creating webdriver object
+		//ChromeDriver driver=new ChromeDriver(); 
+		WebDriver driver=new ChromeDriver(); //most common one used
+		
+		//2)Open URL
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		
+		//3)Enter username (Admin)
+		
+		//4)Enter password (admin123)
+		
+		//5)Click on login
+	
+	
 	}
+	
 
 }
