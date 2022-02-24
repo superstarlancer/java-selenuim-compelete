@@ -30,14 +30,22 @@ public class FirstTestCase {
 		
 		//3)Enter user name (Admin)
 		//need to create a WebElement since it is a data type 
-		WebElement txtusername=driver.findElement(By.id("txtUsername")); //identification
+		//WebElement txtusername=driver.findElement(By.id("txtUsername")); //identification
+		//txtusername.sendKeys("Admin"); //action
 		
-		//4)Enter password (admin123)
-		txtusername.sendKeys("Admin"); //action
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin"); //identification & action in one statement
 		
-		
+		//4)Enter password (admin123
+		driver.findElement(By.name("txtPassword")).sendKeys("admin123");
 		
 		//5)Click on login
+		driver.findElement(By.id("btnLogin")).click();
+		
+		//6)Capture title of the home page (Actual Title)
+		
+		//7)Verify title of the page OrgangeHRM (Expected)
+		
+		//8)Close Browser
 	
 	
 	}
