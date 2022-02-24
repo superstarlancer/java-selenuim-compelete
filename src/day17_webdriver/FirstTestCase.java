@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /*1)Open Web Browser (Chrome,Firefox,Edge)
 2)Open URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/) 
@@ -19,12 +21,23 @@ public class FirstTestCase {
 	public static void main(String[] args)
 	{
 		//1)Open Web Browser (Chrome,Firefox,Edge)
-		System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+		//chrome
+		//System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
 		
 		//creating webdriver object
 		//ChromeDriver driver=new ChromeDriver(); 
-		WebDriver driver=new ChromeDriver(); //most common one used
+		//WebDriver driver=new ChromeDriver(); //most common one used
 		
+		
+		//firefox
+		//System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
+		//WebDriver driver=new FirefoxDriver();
+		
+		//edge
+		System.setProperty("webdriver.edge.driver", "/Users/danielavazquez/drivers/edgedriver_mac64/msedgedriver");
+		WebDriver driver=new EdgeDriver();		
+		
+
 		//2)Open URL
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		
