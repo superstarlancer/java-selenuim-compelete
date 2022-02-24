@@ -42,10 +42,22 @@ public class FirstTestCase {
 		driver.findElement(By.id("btnLogin")).click();
 		
 		//6)Capture title of the home page (Actual Title)
+		String actualtitle= driver.getTitle();
 		
 		//7)Verify title of the page OrgangeHRM (Expected)
+		String expectedtitle="OrangeHRM";
+		
+		if(actualtitle.equals(expectedtitle)) 
+		{
+			System.out.println("Test Passed");
+		}
+		else 
+		{
+			System.out.println("test failed");
+		}
 		
 		//8)Close Browser
+		driver.quit();
 	
 	
 	}
