@@ -21,8 +21,17 @@ public class LocatorsDemo2 {
 		System.out.println("Number of sliders:\s"+sliders.size());
 		
 		
+		List<WebElement> links =driver.findElements(By.tagName("a")); //returns all links into a variables
+		System.out.println("Total Links:\s"+links.size());
 		
 		
+		//List<WebElements> totallinks=driver.findElements(By.tagName("img"));
+		//System.out.println("Number of images:\s"+totallinks.size());
+		
+		
+		int totallinks =driver.findElements(By.tagName("img")).size(); //we are specifying size in the stmt so have to include int if not we add List WebElements
+		System.out.println("Number of images:\s"+totallinks);
+	
 		
 	}
 
