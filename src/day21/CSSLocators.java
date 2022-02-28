@@ -19,8 +19,18 @@ public class CSSLocators {
 		//driver.findElement(By.cssSelector("#search_query_top")).sendKeys("T-Shirts");
 		
 		//css with tag and class .dot
-		driver.findElement(By.cssSelector(".search_query")).sendKeys("T-Shirts");
+		//driver.findElement(By.cssSelector(".search_query")).sendKeys("T-Shirts");
 
+		//css with tag and attribute [] input[name="search_query"]
+		//driver.findElement(By.cssSelector("input[name='search_query']")).sendKeys("T-Shirts");
+		//driver.findElement(By.cssSelector("[name='search_query']")).sendKeys("T-Shirts");
+		
+		//css with tag, class, and attribute
+		//driver.findElement(By.cssSelector("input.search_query[name='search_query']")).sendKeys("T-Shirts");
+		driver.findElement(By.cssSelector(".search_query[name='search_query']")).sendKeys("T-Shirts"); //without tag since it is optional
+		
+		
+	
 	}
 
 }
