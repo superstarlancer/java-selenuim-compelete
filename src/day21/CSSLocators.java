@@ -27,7 +27,8 @@ public class CSSLocators {
 		
 		//css with tag, class, and attribute
 		//driver.findElement(By.cssSelector("input.search_query[name='search_query']")).sendKeys("T-Shirts");
-		driver.findElement(By.cssSelector(".search_query[name='search_query']")).sendKeys("T-Shirts"); //without tag since it is optional
+		//driver.findElement(By.cssSelector(".search_query[name='search_query']")).sendKeys("T-Shirts"); //without tag since it is optional
+		
 		
 		
 	
