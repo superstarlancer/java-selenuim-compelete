@@ -15,8 +15,11 @@ public class CSSLocators {
 		driver.manage().window().maximize();
 		
 		//css with tag and ID
-		driver.findElement(By.cssSelector("input#search_query_top")).sendKeys("T-Shirts");
+		//driver.findElement(By.cssSelector("input#search_query_top")).sendKeys("T-Shirts");
+		//driver.findElement(By.cssSelector("#search_query_top")).sendKeys("T-Shirts");
 		
+		//css with tag and class .dot
+		driver.findElement(By.cssSelector(".search_query")).sendKeys("T-Shirts");
 
 	}
 

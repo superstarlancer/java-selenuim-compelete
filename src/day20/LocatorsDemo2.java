@@ -25,6 +25,7 @@ public class LocatorsDemo2 {
 		System.out.println("Total Links:\s"+links.size());
 		
 		
+		
 		//List<WebElements> totallinks=driver.findElements(By.tagName("img"));
 		//System.out.println("Number of images:\s"+totallinks.size());
 		
