@@ -19,9 +19,13 @@ public class XPathDemo {
 		//driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[2]/form[1]/button[1]")).click();
 		
 		//Relative xpath
-		driver.findElement(By.xpath("//input[@id='search_query_top']")).sendKeys("T-shirts");
-		driver.findElement(By.xpath("//button[@name='submit_search']")).click();
+		//driver.findElement(By.xpath("//input[@id='search_query_top']")).sendKeys("T-shirts");
+		//driver.findElement(By.xpath("//button[@name='submit_search']")).click();
 
+		//xpath with multiple attributes
+		driver.findElement(By.xpath("//input[@id='search_query_top'][@name='search_query']")).sendKeys("T-shirts");
+		driver.findElement(By.xpath("//button[@type='submit'][@name='submit_search']")).click();
+		
 	}
 
 }
