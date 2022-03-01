@@ -23,9 +23,15 @@ public class XPathDemo {
 		//driver.findElement(By.xpath("//button[@name='submit_search']")).click();
 
 		//xpath with multiple attributes
-		driver.findElement(By.xpath("//input[@id='search_query_top'][@name='search_query']")).sendKeys("T-shirts");
-		driver.findElement(By.xpath("//button[@type='submit'][@name='submit_search']")).click();
+		//driver.findElement(By.xpath("//input[@id='search_query_top'][@name='search_query']")).sendKeys("T-shirts");
+		//driver.findElement(By.xpath("//button[@type='submit'][@name='submit_search']")).click();
 		
+		
+		//xpath with OR operator
+		//driver.findElement(By.xpath("//input[@id='search_query_top' or @name='search']")).sendKeys("T-shirts");
+		
+		//xpath with AND operator
+		driver.findElement(By.xpath("//input[@id='search_query_top' and @name='search_query']")).sendKeys("T-shirts");
 	}
 
 }
