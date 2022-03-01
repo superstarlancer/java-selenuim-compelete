@@ -41,8 +41,21 @@ public class XPathDemo {
 	
 
 		//driver.findElement(By.xpath("//a[text()='Women']")).click();
-		String phone =driver.findElement(By.xpath("//strong[text()='0123-456-789']")).getText();
-		System.out.println(phone);
+		//String phone =driver.findElement(By.xpath("//strong[text()='0123-456-789']")).getText();
+		//System.out.println(phone);
+		
+		//chained xpath
+		boolean status=driver.findElement(By.xpath("//div[@id='header_logo']//a//img")).isDisplayed();
+		
+		if(status==true) 
+		{
+			System.out.println("Logo is present");
+		}
+		else 
+		{
+			System.out.println("Logo is not present");
+		}
+		
 	}
 
 }
