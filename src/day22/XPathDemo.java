@@ -31,7 +31,14 @@ public class XPathDemo {
 		//driver.findElement(By.xpath("//input[@id='search_query_top' or @name='search']")).sendKeys("T-shirts");
 		
 		//xpath with AND operator
-		driver.findElement(By.xpath("//input[@id='search_query_top' and @name='search_query']")).sendKeys("T-shirts");
+		//driver.findElement(By.xpath("//input[@id='search_query_top' and @name='search_query']")).sendKeys("T-shirts");
+	
+		//xpath with contains() method
+		//driver.findElement(By.xpath("//input[contains(@id,'search_query')]")).sendKeys("T-shirts");
+	
+		//xpath with starts-with() method
+		driver.findElement(By.xpath("//input[starts-with(@id,'search_query')]")).sendKeys("T-shirts");
+	
 	}
 
 }
