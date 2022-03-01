@@ -37,8 +37,12 @@ public class XPathDemo {
 		//driver.findElement(By.xpath("//input[contains(@id,'search_query')]")).sendKeys("T-shirts");
 	
 		//xpath with starts-with() method
-		driver.findElement(By.xpath("//input[starts-with(@id,'search_query')]")).sendKeys("T-shirts");
+		//driver.findElement(By.xpath("//input[starts-with(@id,'search_query')]")).sendKeys("T-shirts");
 	
+
+		//driver.findElement(By.xpath("//a[text()='Women']")).click();
+		String phone =driver.findElement(By.xpath("//strong[text()='0123-456-789']")).getText();
+		System.out.println(phone);
 	}
 
 }
