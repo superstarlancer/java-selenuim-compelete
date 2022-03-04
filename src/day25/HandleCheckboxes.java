@@ -75,7 +75,7 @@ public class HandleCheckboxes {
 			
 		}*/
 		
-		for(WebElement chkbox:checkboxes) 
+		for(WebElement chkbox:checkboxes) //we use click() to select and de-select check boxes 
 		{
 			chkbox.click();     //3) is uncommented to this expression takes care of clicking them again 
 		}
