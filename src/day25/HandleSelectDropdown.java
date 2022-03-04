@@ -1,6 +1,7 @@
 package day25;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -30,11 +31,29 @@ public class HandleSelectDropdown {
 		//3)select an option from drop down by using visible text
 		//drpCountry.selectByVisibleText("Bhutan");
 		
-		//select by value, value is an attribute of the element
+		//select by value, value is an attribute of the 'option' tag
 		//drpCountry.selectByValue("223");
 		
 		//select by Index
-		drpCountry.selectByIndex(2); //renders Albania, index count starts from 0
+		//drpCountry.selectByIndex(2); //renders Albania, index count starts from 0
+		
+		//4)print total number of options/countries available
+		List<WebElement> alloptions=drpCountry.getOptions();
+		System.out.println("Total Number of options:\s"+alloptions.size());
+		
+		
+		//5)print all options/countries in the console
+		//we already captures all the options into a variable 'alloptions' print them using a loop
+		/*for(int i=0;i<alloptions.size();i++) 
+		{
+			System.out.println(alloptions.get(i).getText());   //we need to get the web element then get the text of it
+		}*/
+		
+		for(WebElement option:alloptions) 
+		{
+			System.out.println(option.getText());
+		}
+		
 		
 		
 	}
