@@ -17,6 +17,9 @@ public class HandleFrames {
 		driver.get("https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html");
 		driver.manage().window().maximize();
 		
+		int noOfFrames=driver.findElements(By.tagName("iframe")).size();
+		System.out.println("Number of Frames:\s"+noOfFrames);
+		
 		
 		//to enter frame, add the methods below first
 		driver.switchTo().frame("packageListFrame");
@@ -30,6 +33,8 @@ public class HandleFrames {
 		
 		driver.switchTo().frame("classFrame");
 		driver.findElement(By.xpath("//div[@class='topNav']//a[normalize-space()='Help']")).click(); // 3rd frame
+		
+		
 		
 
 	}
