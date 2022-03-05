@@ -16,7 +16,6 @@ public class ImplicitWaitDemo {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		
 		driver.get("https://google.com/");
 		driver.manage().window().maximize();
 		

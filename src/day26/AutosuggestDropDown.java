@@ -32,9 +32,19 @@ public class AutosuggestDropDown {
 		System.out.println("Numbre of search options:"+alloptions.size());
 		
 		//print options
-		for( WebElement option:alloptions) 
+		/*for( WebElement option:alloptions) 
 		{
 			System.out.println(option.getText());
+		}*/
+		
+		//select option from auto suggest drop down
+		for(WebElement option:alloptions)
+		{
+			if(option.getText().equals("selenium python")) 
+			{
+				option.click();
+				break;
+			}
 		}
 		
 		
