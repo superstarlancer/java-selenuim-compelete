@@ -13,7 +13,7 @@ public class AuthenticatorPopup {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get("https://the-internet.herokuapp.com/basic_auth");
+		//driver.get("https://the-internet.herokuapp.com/basic_auth");
 		driver.manage().window().maximize();
 		
 		//Syntax: http://username:password@test.com this is how you bypass the pop-up authentication
