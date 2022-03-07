@@ -31,7 +31,7 @@ public class AlertsDemo {
 		alertwindow.accept(); // close alert window by using OK button
 		
 		//alertwindow.dismiss(); // close alert window using Cancel button
-
-	}
+ 
+	} 
 
 }

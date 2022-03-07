@@ -20,6 +20,6 @@ public class BrowserCommands {
 		driver.findElement(By.linkText("OrangeHRM, Inc")).click(); //opens another browser window
 		//driver.close(); //closes only 1 browser window at the time, closes the first one opened
 		driver.quit(); //closes multiple browser windows
-	}
+	} 
 
 }

@@ -55,5 +55,5 @@ public class ConditionalCommands {
 		System.out.println(female_rd.isSelected()); //true
 		
 	}
-
+ 
 }

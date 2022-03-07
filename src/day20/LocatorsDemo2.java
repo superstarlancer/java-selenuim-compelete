@@ -32,7 +32,7 @@ public class LocatorsDemo2 {
 		
 		int totallinks =driver.findElements(By.tagName("img")).size(); //we are specifying size in the stmt so have to include int if not we add List WebElements
 		System.out.println("Number of images:\s"+totallinks);
-	
+	 
 		
 	}
 
