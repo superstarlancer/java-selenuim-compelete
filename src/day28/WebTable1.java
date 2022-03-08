@@ -50,20 +50,34 @@ public class WebTable1 {
 		//Read all data in first row and second column, iterate each row and capture value in column 2
 		//if author equals Amit capture name of book, if not go to next row, if match capture book name
 		
-		
+		int count=0;
 		for(int r=2;r<=rows;r++) 
 		{
 			String author=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[2]")).getText();
 			
 			if(author.equals("Amit")) 
 			{
+				count++;
 				String bookname=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[1]")).getText();
-				System.out.println(bookname);
+				//System.out.println(bookname+"      "+author); //other bookS with author Amit
+				System.out.println(bookname); //just the first book that matches Amit
 			}
 		}
+		System.out.println("Number of times Amit appears in table:\s"+count);
 		
 		
+		//6)Find sum of all cost of books
+		//row is dynamic, column number is static
 		
+		int sum=0;
+		for(int r=2;r<=rows;r++) 
+		{
+			String price=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[4]")).getText();
+			
+			sum=sum+Integer.parseInt(price); //7100 sum is number, price is string, convert price into number
+			
+		}
+		System.out.println("Total price of books:\s"+"$"+sum);
 		
 		
 		driver.quit();
