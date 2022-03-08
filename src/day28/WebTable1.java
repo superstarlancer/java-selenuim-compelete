@@ -24,7 +24,49 @@ public class WebTable1 {
 		//int rows=driver.findElements(By.tagName("tr")).size(); 
 		System.out.println("Total Number of rows:\s"+rows);
 		
-
+		//2) How to find number of columns/headers in a table
+		int cols=driver.findElements(By.xpath("//table[@name='BookTable']//th")).size();
+		//int cols=driver.findElements(By.tagName("th")).size(); 
+		System.out.println("Number of Columns:"+cols);
+		
+		
+		//3)Retrieve the specific row and column data 
+		//String value=driver.findElement(By.xpath("//table[@name='BookTable']//tr[5]/td[1]")).getText();
+		//System.out.println(value); //master in selenium
+		
+		//4)Retrieve all the data from the table, all rows and columns
+		/*for(int r=2;r<=rows;r++) //1st one is header don't want to display it so start at 2
+		{							//2 3 4 5 6 7
+			for(int c=1;c<=cols;c++)  //1 2 3 4 
+			{
+				//pass row and column data dynamically
+				String value=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td["+c+"]")).getText();
+				System.out.print(value+"         "); //prints in tabular format
+			}
+			System.out.println(); //prints in tabular format
+		}*/
+		
+		//5)Print book names whose Author is Amit
+		//Read all data in first row and second column, iterate each row and capture value in column 2
+		//if author equals Amit capture name of book, if not go to next row, if match capture book name
+		
+		
+		for(int r=2;r<=rows;r++) 
+		{
+			String author=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[2]")).getText();
+			
+			if(author.equals("Amit")) 
+			{
+				String bookname=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[1]")).getText();
+				System.out.println(bookname);
+			}
+		}
+		
+		
+		
+		
+		
+		driver.quit();
 	}
 
 }
