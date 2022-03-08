@@ -73,7 +73,6 @@ public class WebTable1 {
 		for(int r=2;r<=rows;r++) 
 		{
 			String price=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[4]")).getText();
-			
 			sum=sum+Integer.parseInt(price); //7100 sum is number, price is string, convert price into number
 			
 		}
