@@ -21,6 +21,7 @@ public class LocationOfElements {
 		
 		Point loc=driver.findElement(By.xpath("//div[@id='divLogo']//img")).getLocation(); //loc var will be able to return x and y axis from loc
 		
+		//two ways to print out coordinates
 		System.out.println(loc); //(482,75)
 		
 		System.out.println(loc.getX());//returns x axis //482
