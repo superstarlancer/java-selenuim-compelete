@@ -1,4 +1,4 @@
-package AssignmentsPart2;
+package day7Assignments;
 
 public class StringAssignments {
 
@@ -29,6 +29,6 @@ public class StringAssignments {
 		System.out.println(s.toUpperCase());
 		System.out.println(s.toLowerCase());
 				
-	}
+	} 
 
 }

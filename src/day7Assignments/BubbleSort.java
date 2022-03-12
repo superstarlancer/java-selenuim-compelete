@@ -1,4 +1,4 @@
-package AssignmentsPart2;
+package day7Assignments;
 
 import java.util.Arrays;
 
@@ -25,6 +25,6 @@ public class BubbleSort {
 		
 		System.out.println("Array after sorting:\s"+Arrays.toString(a));
 		
-	}
+	} 
 
 }

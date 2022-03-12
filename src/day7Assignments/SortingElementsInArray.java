@@ -1,4 +1,4 @@
-package AssignmentsPart2;
+package day7Assignments;
 
 public class SortingElementsInArray {
 
@@ -7,6 +7,6 @@ public class SortingElementsInArray {
 		//if first element > second element, swap order 
 		
 		
-	}
+	} 
 
 }

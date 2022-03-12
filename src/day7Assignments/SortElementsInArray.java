@@ -1,4 +1,4 @@
-package AssignmentsPart2;
+package day7Assignments;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -30,6 +30,6 @@ public class SortElementsInArray {
 		Arrays.sort(c,Collections.reverseOrder());
 		System.out.println("Array elements after sorting\s"+Arrays.toString(c));
 		
-	}
+	} 
 
 }

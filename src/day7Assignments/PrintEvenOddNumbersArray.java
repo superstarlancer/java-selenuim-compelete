@@ -1,4 +1,4 @@
-package AssignmentsPart2;
+package day7Assignments;
 
 public class PrintEvenOddNumbersArray {
 
@@ -46,7 +46,7 @@ public class PrintEvenOddNumbersArray {
 				System.out.println(odd);
 			}
 		}
-		
+		 
 		
 		
 		

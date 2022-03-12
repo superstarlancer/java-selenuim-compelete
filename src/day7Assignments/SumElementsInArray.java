@@ -1,4 +1,4 @@
-package AssignmentsPart2;
+package day7Assignments;
 
 public class SumElementsInArray {
 
@@ -22,5 +22,5 @@ public class SumElementsInArray {
 		System.out.println("Sum of Array elements:\s"+sum);
 		
 	}
-
+ 
 }
