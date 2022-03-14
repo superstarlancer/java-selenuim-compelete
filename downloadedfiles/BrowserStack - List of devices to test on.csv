@@ -1,0 +1,84 @@
+Source: https://browserstack.com/test-on-the-right-mobile-devices,,,
+,,,
+List of devices for start-ups,,,
+Use this list when you have upto 15000 unique visitors a month,,,
+Device name,Device Type,OS,OS version
+Apple iPhone 8,Mobile,iOS,13
+Apple iPhone XR,Mobile,iOS,12
+Google Pixel 3,Mobile,Android,9
+Samsung Galaxy S9 Plus,Mobile,Android,8
+Samsung Galaxy S8,Mobile,Android,7
+Apple iPad 6th,Tablet,iOS,11
+,,,
+,,,
+List of devices for growing businesses,,,
+Use this list when you have between 15000 and 300000 unique visitors a month,,,
+Device name,Device Type,OS,OS version
+Apple iPhone 8,Mobile,iOS,13
+Apple iPhone XR,Mobile,iOS,12
+Google Pixel 3,Mobile,Android,9
+Samsung Galaxy S9 Plus,Mobile,Android,8
+Samsung Galaxy S8,Mobile,Android,7
+Apple iPad 6th,Tablet,iOS,11
+Apple iPhone 8 Plus,Mobile,iOS,12
+Apple iPhone 6S,Mobile,iOS,12
+Google Pixel 4,Mobile,Android,10
+Huawei P20 Lite,Mobile,Android,9
+Samsung Galaxy J7 Prime,Mobile,Android,7
+Samsung Galaxy A8,Mobile,Android,7
+Samsung Galaxy J5 Prime,Mobile,Android,6
+Samsung Galaxy Tab S4,Tablet,Android,8
+,,,
+,,,
+List of devices for enterprises,,,
+Use this list when you have more than 300000 unique visitors every month,,,
+Device name,Device Type,OS,OS version
+Apple iPhone 8,Mobile,iOS,13
+Apple iPhone XR,Mobile,iOS,12
+Google Pixel 3,Mobile,Android,9
+Samsung Galaxy S9 Plus,Mobile,Android,8
+Samsung Galaxy S8,Mobile,Android,7
+Apple iPad 6th,Tablet,iOS,11
+Apple iPhone 8 Plus,Mobile,iOS,12
+Apple iPhone 6S,Mobile,iOS,12
+Google Pixel 4,Mobile,Android,10
+Huawei P20 Lite,Mobile,Android,9
+Samsung Galaxy J7 Prime,Mobile,Android,7
+Samsung Galaxy A8,Mobile,Android,7
+Samsung Galaxy J5 Prime,Mobile,Android,6
+Samsung Galaxy Tab S4,Tablet,Android,8
+Apple iPhone 11 Pro,Mobile,Apple,13
+Apple iPhone XS,Mobile,Apple,13
+Apple iPhone SE,Mobile,Apple,11
+One Plus 6T,Mobile,Android,9
+Samsung Galaxy A10,Mobile,Android,9
+Xiaomi Redmi Note 7,Mobile,Android,9
+Xiaomi Redmi 6A,Mobile,Android,8
+Samsung Galaxy J2 Core,Mobile,Android,8
+Samsung Galaxy S6,Mobile,Android,5
+Apple iPad Air 2019,Tablet,Apple,13
+,,,
+,,,
+Additional devices specific to Geography for start-ups,,,
+Country,Device 1,Device 2,
+India,Xiaomi Redmi Note 4,Vivo Y55s,
+China,Samsung Galaxy S5,Samsung Galaxy Note 2,
+Japan,Sony Xperia XZ1,,
+Brazil,LG K10,Motorola Moto G5,
+Mexico,Samsung Galaxy Grand Prime Plus,,
+South Africa,Samsung Galaxy Grand Prime Plus,Samsung Galaxy S2,
+Nigeria,Tecno Spark 2,Sony Xperia E5,
+Russia,Samsung Galaxy J3,Samsung Galaxy A5,
+,,,
+Additional devices specific to Geography for growing businesses and enterprises,,,
+Country,Device 1,Device 2,Device 3
+India,Xiaomi Redmi Note 4,Vivo Y55s,Oppo A3s
+China,Samsung Galaxy S5,Samsung Galaxy Note 2,Oppo R9
+Japan,Sony Xperia XZ1,Sony Xperia X Performance,
+Brazil,LG K10,Motorola Moto G5,Samsung Galaxy J1 Mini
+Mexico,Samsung Galaxy Grand Prime Plus,Motorola Moto G6 Play,
+South Africa,Samsung Galaxy Grand Prime Plus,Samsung Galaxy S2,Huawei P9 Lite
+Nigeria,Tecno Spark 2,Sony Xperia E5,Infinix Hot 6
+Russia,Samsung Galaxy J3,Samsung Galaxy A5,Xiaomi Redmi 4X
+,,,
+Source: https://browserstack.com/test-on-the-right-mobile-devices,,,
