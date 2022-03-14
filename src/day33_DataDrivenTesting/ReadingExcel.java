@@ -30,10 +30,10 @@ public class ReadingExcel {
 			for(int c=0;c<totalcells;c++) //columns 0 1 2 3 start from 0 we will get 4 cells
 			{
 				XSSFCell cell=currentrow.getCell(c);
-				System.out.println(cell.toString());
+				System.out.print(cell.toString()+"      ");
 			}
+			System.out.println();
 		}
-		
 		workbook.close();
 		file.close(); //close the file and clear the memory
 
