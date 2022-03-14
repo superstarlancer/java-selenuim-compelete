@@ -13,50 +13,46 @@ public class WritingDataIntoExcel {
 	public static void main(String[] args) throws IOException 
 	{
 		FileOutputStream file=new FileOutputStream("/Users/danielavazquez/SeleniumPractice/testdata.xlsx"); //creates a file
-		XSSFWorkbook workbook=new XSSFWorkbook(); //create a workbook
-		XSSFSheet sheet=workbook.createSheet("Data1"); //create a sheet
 		
+		XSSFWorkbook  workbook=new XSSFWorkbook(); //create a workbook
+		XSSFSheet sheet=workbook.createSheet("Data"); //create a sheet
 		
-		//for same data
-		/*for(int r=0;r<5;r++) //create row
+		//same data
+		/*for(int r=0;r<5;r++)  //create row
 		{
-			XSSFRow row=sheet.createRow(r);
+			XSSFRow row=sheet.createRow(r); //create cell and enter data
 			
-			for(int c=0;c<3;c++) //create cell and enter data
+			for(int c=0;c<3;c++)
 			{
-				
-				row.createCell(c).setCellValue("welcome"); //creating cell and setting cell value
+				row.createCell(c).setCellValue("welcome");//creating cell and setting cell value
 			}
-		}
-	
-		workbook.write(file);
-		workbook.close();
-		file.close();
+		}*/
+
 		
-		System.out.println("You're Done!");*/
-		
-		
-		
-		//for different data
-		
+		//different data
 		Scanner sc=new Scanner(System.in);
 		
-		for(int r=0;r<5;r++) //create row
+		for(int r=0;r<3;r++)
 		{
 			XSSFRow row=sheet.createRow(r);
 			
-			for(int c=0;c<3;c++) //create cell and enter data
-			{
-				System.out.println("Enter an Input Value:");
-				row.createCell(c).setCellValue(sc.next()); //creating cell and setting cell value
+			for(int c=0;c<2;c++)
+			{				
+				System.out.println("enter a input value:");
+				row.createCell(c).setCellValue(sc.next());
 			}
 		}
-	
-		workbook.write(file);
-		workbook.close();
-		file.close();
+
 		
-		System.out.println("You're Done!");
+		
+		workbook.write(file); //this updates the file
+		workbook.close(); //this closes the file and memory 
+		file.close(); //this closes the file and memory
+		
+		System.out.println("Done!!!!");
+		
+		
+		
 	}
 
 }
