@@ -5,7 +5,7 @@
     <classes>
       <class name="day35.SecondTestCase">
         <methods>
-          <include name="Login"/>
+          <include name="login"/>
         </methods>
       </class> <!-- day35.SecondTestCase -->
     </classes>
