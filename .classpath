@@ -138,5 +138,6 @@
 	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/poi-bin-5.2.1/auxiliary/xmlgraphics-commons-2.6.jar"/>
 	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/poi-bin-5.2.1/auxiliary/xmlsec-2.3.0.jar"/>
 	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/DBdrivers/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
