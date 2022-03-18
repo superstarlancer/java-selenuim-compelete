@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T11:22:21 CDT" name="Default suite" finished-at="2022-03-16T11:22:27 CDT" duration-ms="5847">
+  <suite started-at="2022-03-17T16:51:40 CDT" name="Default suite" finished-at="2022-03-17T16:51:40 CDT" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2022-03-16T11:22:21 CDT" name="Default test" finished-at="2022-03-16T11:22:27 CDT" duration-ms="5847">
-      <class name="day35.SecondTestCase">
-        <test-method signature="openApp()[pri:1, instance:day35.SecondTestCase@25fb8912]" started-at="2022-03-16T11:22:21 CDT" name="openApp" finished-at="2022-03-16T11:22:25 CDT" duration-ms="3476" status="PASS">
+    <test started-at="2022-03-17T16:51:40 CDT" name="Default test" finished-at="2022-03-17T16:51:40 CDT" duration-ms="51">
+      <class name="day36.AllAnnotations">
+        <test-method is-config="true" signature="bt()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="bt" finished-at="2022-03-17T16:51:40 CDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="login()[pri:2, instance:day35.SecondTestCase@25fb8912]" started-at="2022-03-16T11:22:25 CDT" name="login" finished-at="2022-03-16T11:22:27 CDT" duration-ms="2252" status="PASS">
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="bc" finished-at="2022-03-17T16:51:40 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="closeApp()[pri:3, instance:day35.SecondTestCase@25fb8912]" started-at="2022-03-16T11:22:27 CDT" name="closeApp" finished-at="2022-03-16T11:22:27 CDT" duration-ms="82" status="PASS">
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="bm" finished-at="2022-03-17T16:51:40 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- day35.SecondTestCase -->
+        </test-method> <!-- bm -->
+        <test-method signature="tm1()[pri:1, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="tm1" finished-at="2022-03-17T16:51:40 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm1 -->
+        <test-method is-config="true" signature="am()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="am" finished-at="2022-03-17T16:51:40 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="bm" finished-at="2022-03-17T16:51:40 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="tm2()[pri:2, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="tm2" finished-at="2022-03-17T16:51:40 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm2 -->
+        <test-method is-config="true" signature="am()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="am" finished-at="2022-03-17T16:51:40 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="ac" finished-at="2022-03-17T16:51:40 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:day36.AllAnnotations@1b11171f]" started-at="2022-03-17T16:51:40 CDT" name="at" finished-at="2022-03-17T16:51:40 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- day36.AllAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

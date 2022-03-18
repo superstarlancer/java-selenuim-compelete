@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="day35.SecondTestCase" class="method navigator-link" hash-for-method="closeApp">closeApp</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="day36.AllAnnotations" class="method navigator-link" hash-for-method="tm1">tm1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="day35.SecondTestCase" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="day35.SecondTestCase" class="method navigator-link" hash-for-method="openApp">openApp</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="day36.AllAnnotations" class="method navigator-link" hash-for-method="tm2">tm2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -132,28 +127,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">day35.SecondTestCase</span>
+              <span class="class-name">day36.AllAnnotations</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="closeApp">
-                  </a> <!-- closeApp -->
-                  <span class="method-name">closeApp</span>
+                  <a name="tm1">
+                  </a> <!-- tm1 -->
+                  <span class="method-name">tm1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openApp">
-                  </a> <!-- openApp -->
-                  <span class="method-name">openApp</span>
+                  <a name="tm2">
+                  </a> <!-- tm2 -->
+                  <span class="method-name">tm2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/testng-eclipse-819748202/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/testng-eclipse--577934427/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -170,7 +158,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;day35.SecondTestCase&quot;/&gt;
+      &lt;class name=&quot;day36.AllAnnotations&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -210,24 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'openApp')
-data.setCell(0, 2, 'day35.SecondTestCase')
-data.setCell(0, 3, 3476);
+data.setCell(0, 1, 'tm1')
+data.setCell(0, 2, 'day36.AllAnnotations')
+data.setCell(0, 3, 5);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'day35.SecondTestCase')
-data.setCell(1, 3, 2252);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'closeApp')
-data.setCell(2, 2, 'day35.SecondTestCase')
-data.setCell(2, 3, 82);
+data.setCell(1, 1, 'tm2')
+data.setCell(1, 2, 'day36.AllAnnotations')
+data.setCell(1, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -253,19 +237,47 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">day35.SecondTestCase</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">openApp</span>
+              <div class="chronological-class-name">day36.AllAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bm</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">3481 ms</span>
+                <span class="method-name">tm1</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">closeApp</span>
-                <span class="method-start">5734 ms</span>
+                <span class="method-name">tm2</span>
+                <span class="method-start">44 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ac</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
