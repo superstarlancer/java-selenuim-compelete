@@ -61,7 +61,7 @@ public class GroupingDemo
 		System.out.println("payment by rupees method");
 	}
 	
-	@Test(priority=8, groups= {"sanity"})
+	@Test(priority=8, groups= {"sanity"}, enabled=false)
 	void paymentIndollar() 
 	{
 		System.out.println("paymeny by dollar method");

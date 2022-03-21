@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day36.DependencyMethods">
+      <class name="day37.DataProviderDemo">
         <methods>
-          <include name="login"/>
-          <include name="search"/>
-          <include name="openApp"/>
-          <include name="logout"/>
-          <include name="advsearch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testLogin" invocation-numbers="0 2"/>
         </methods>
-      </class> <!-- day36.DependencyMethods -->
+      </class> <!-- day37.DataProviderDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
