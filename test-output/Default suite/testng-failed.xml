@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day38.ParamTest">
+      <class name="day38.HardVsSoftAssertions">
         <methods>
-          <include name="testTitle"/>
-          <include name="setup"/>
-          <include name="testLogo"/>
-          <include name="tearDown"/>
+          <include name="test_softassertion"/>
         </methods>
-      </class> <!-- day38.ParamTest -->
+      </class> <!-- day38.HardVsSoftAssertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
