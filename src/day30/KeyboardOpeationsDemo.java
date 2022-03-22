@@ -17,7 +17,7 @@ public class KeyboardOpeationsDemo {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.get("https://text-compare.com/");
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		
 		driver.findElement(By.xpath("//textarea[@id='inputText1']")).sendKeys("Welcome to Selenium");
 		Actions act=new Actions(driver);

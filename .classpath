@@ -139,5 +139,18 @@
 	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/poi-bin-5.2.1/auxiliary/xmlsec-2.3.0.jar"/>
 	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/DBdrivers/mysql-connector-java-8.0.28.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/extentreports-5.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/freemarker-2.3.30.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/guice-4.1.0-no_aop.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/lombok-1.18.12.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/rxjava-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/snakeyaml-1.21.jar"/>
+	<classpathentry kind="lib" path="/Users/danielavazquez/drivers/extentreports_5.0.1/testng-7.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
