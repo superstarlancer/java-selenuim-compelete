@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-22T16:44:32 MDT" name="Default suite" finished-at="2022-03-22T16:44:48 MDT" duration-ms="15393">
+  <suite started-at="2022-03-22T16:59:05 MDT" name="Suite" finished-at="2022-03-22T16:59:18 MDT" duration-ms="13136">
     <groups>
     </groups>
-    <test started-at="2022-03-22T16:44:32 MDT" name="Default test" finished-at="2022-03-22T16:44:48 MDT" duration-ms="15393">
+    <test started-at="2022-03-22T16:59:05 MDT" name="Test" finished-at="2022-03-22T16:59:18 MDT" duration-ms="13136">
       <class name="day39.extentreports.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:day39.extentreports.LoginTest@3527942a]" started-at="2022-03-22T16:44:32 MDT" name="setup" finished-at="2022-03-22T16:44:40 MDT" duration-ms="7695" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day39.extentreports.LoginTest@942a29c]" started-at="2022-03-22T16:59:05 MDT" name="setup" finished-at="2022-03-22T16:59:11 MDT" duration-ms="5421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:1, instance:day39.extentreports.LoginTest@3527942a]" started-at="2022-03-22T16:44:40 MDT" name="testLogo" finished-at="2022-03-22T16:44:40 MDT" duration-ms="71" status="PASS">
+        <test-method signature="testLogo()[pri:1, instance:day39.extentreports.LoginTest@942a29c]" started-at="2022-03-22T16:59:11 MDT" name="testLogo" finished-at="2022-03-22T16:59:11 MDT" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method signature="testLogin()[pri:2, instance:day39.extentreports.LoginTest@3527942a]" started-at="2022-03-22T16:44:40 MDT" name="testLogin" finished-at="2022-03-22T16:44:48 MDT" duration-ms="7398" status="FAIL">
+        <test-method signature="testLogin()[pri:2, instance:day39.extentreports.LoginTest@942a29c]" started-at="2022-03-22T16:59:11 MDT" name="testLogin" finished-at="2022-03-22T16:59:18 MDT" duration-ms="7163" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -63,13 +63,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:3, instance:day39.extentreports.LoginTest@3527942a]" started-at="2022-03-22T16:44:48 MDT" name="testLogout" finished-at="2022-03-22T16:44:48 MDT" depends-on-methods="day39.extentreports.LoginTest.testLogin" duration-ms="1" status="SKIP">
+        <test-method signature="testLogout()[pri:3, instance:day39.extentreports.LoginTest@942a29c]" started-at="2022-03-22T16:59:18 MDT" name="testLogout" finished-at="2022-03-22T16:59:18 MDT" depends-on-methods="day39.extentreports.LoginTest.testLogin" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method LoginTest.testLogout()[pri:3, instance:day39.extentreports.LoginTest@3527942a] depends on not successfully finished methods]]>
+              <![CDATA[Method LoginTest.testLogout()[pri:3, instance:day39.extentreports.LoginTest@942a29c] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method LoginTest.testLogout()[pri:3, instance:day39.extentreports.LoginTest@3527942a] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method LoginTest.testLogout()[pri:3, instance:day39.extentreports.LoginTest@942a29c] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -95,11 +95,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:day39.extentreports.LoginTest@3527942a]" started-at="2022-03-22T16:44:48 MDT" name="tearDown" finished-at="2022-03-22T16:44:48 MDT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day39.extentreports.LoginTest@942a29c]" started-at="2022-03-22T16:59:18 MDT" name="tearDown" finished-at="2022-03-22T16:59:18 MDT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- day39.extentreports.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
