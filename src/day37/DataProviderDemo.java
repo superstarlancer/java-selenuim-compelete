@@ -31,10 +31,10 @@ public class DataProviderDemo {
 		String exp_title="nopCommerce demo store";
 		String act_title=driver.getTitle();
 		
-		Assert.assertEquals(exp_title, act_title);
+		Assert.assertEquals(exp_title, act_title); 
 	}
 			
-	@DataProvider(name="dp", indices= {0,2})
+	@DataProvider(name="dp", indices= {0,2}) //not a range, you specify which get executed exactly
 	String [][] loginData()
 	{
 		String data[][]= { 
