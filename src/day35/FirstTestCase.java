@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class FirstTestCase 
 {
 	@Test(priority=1) //this is called an annotation
-	void openApp() 
+	void openApp()  
 	{
 		System.out.println("Opening application...");
 	}

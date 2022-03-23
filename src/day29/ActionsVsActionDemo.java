@@ -20,7 +20,7 @@ public class ActionsVsActionDemo {
 		
 		driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
 		driver.manage().window().maximize();
-		
+	 	
 		WebElement button=driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
 		
 		//Right click operation

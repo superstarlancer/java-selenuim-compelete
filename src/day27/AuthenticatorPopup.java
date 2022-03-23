@@ -10,7 +10,7 @@ public class AuthenticatorPopup {
 	public static void main(String[] args) 
 	{
 		System.setProperty("webdriver.chromedriver", "/usr/local/bin/chromedriver");
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new ChromeDriver(); 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		//driver.get("https://the-internet.herokuapp.com/basic_auth");
