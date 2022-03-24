@@ -1,8 +1,8 @@
 package day41;
 
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -13,21 +13,22 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class BrokenLinksDemo 
-{
+public class BrokenLinksDemo {
+
 	WebDriver driver;
 	
 	@BeforeClass
-	void setUp() 
+	void setup()
 	{
-		System.setProperty("webdriver.chromedriver", "/usr/local/bin/chromedriver");
-		driver=new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+		driver = new ChromeDriver();
+		
 		driver.get("http://www.deadlinkcity.com/");
+		driver.manage().window().maximize();
 	}
 	
 	@Test
-	void testBrokenLinks() 
+	void testBrokenLinks() throws MalformedURLException 
 	{
 		//step1 capture all the links
 		//step2 capture href attribute value of all links
@@ -36,47 +37,53 @@ public class BrokenLinksDemo
 		//step 5 if error code <400 not broken link, if error code >=400 broken link
 		
 		List<WebElement> links=driver.findElements(By.tagName("a"));
-		System.out.println("total links are:+" +links.size());
+		System.out.println("total links are:"+links.size());
 		
-		int brokenlinks = 0;
-		for(WebElement element:links) 
+		int brokenlinks=0;
+		
+		for(WebElement element:links)
 		{
 			String url=element.getAttribute("href"); //gives you href attribute of value in string format
-		
-			if(url == null || url.isEmpty()) 
+						
+			if(url == null || url.isEmpty())
 			{
-				System.out.println("Url is empty...");
-				continue; //goes to next link if url is empty
+				System.out.println("URL is empty..");
+				continue;  //goes to next link if url is empty
 			}
 			
 			URL link= new URL(url);
-			try 
+			
+			try
 			{
-				HttpURLConnection httpConn= (HttpURLConnection)link.openConnection(); //create an object and take link object to change http connection and return it
-				httpConn.connect(); //connect to server
+				HttpURLConnection httpConn=(HttpURLConnection)link.openConnection(); //create an object and take link object to change http connection and return it
+				httpConn.connect(); // connect to server
 				
-				if(httpConn.getResponseCode()>=400) 
+				if(httpConn.getResponseCode()>=400)
 				{
-					System.out.println("url"+"----is a broken link");
+					System.out.println(httpConn.getResponseCode()+url+" --- is broken link");
+					brokenlinks++;
 				}
-				else 
+				else
 				{
-					System.out.println("url"+ "----is Not a broken link");
-				}		
-				
+					System.out.println(httpConn.getResponseCode()+" url "+" -- is Not broken link");
+				}
 			}
 			catch(Exception e) {
 				
 			}
-		
+			
 		}
 		
-		System.out.println("Number of broken links:" +brokenlinks);
+		System.out.println("Number of broken links:"+brokenlinks );
+		
 	}
 	
+	
 	@AfterClass
-	void tearDown() 
+	void tearDown()
 	{
-	driver.quit();	
+		driver.quit();
 	}
 }
+
+

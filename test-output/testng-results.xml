@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T20:09:55 MDT" name="Default suite" finished-at="2022-03-23T20:10:02 MDT" duration-ms="6662">
+  <suite started-at="2022-03-24T11:19:56 MDT" name="Default suite" finished-at="2022-03-24T11:20:10 MDT" duration-ms="14208">
     <groups>
     </groups>
-    <test started-at="2022-03-23T20:09:55 MDT" name="Default test" finished-at="2022-03-23T20:10:02 MDT" duration-ms="6662">
-      <class name="day41.CookiesDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:day41.CookiesDemo@2d52216b]" started-at="2022-03-23T20:09:55 MDT" name="setUp" finished-at="2022-03-23T20:10:01 MDT" duration-ms="6349" status="PASS">
+    <test started-at="2022-03-24T11:19:56 MDT" name="Default test" finished-at="2022-03-24T11:20:10 MDT" duration-ms="14208">
+      <class name="day41.BrokenLinksDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day41.BrokenLinksDemo@2d52216b]" started-at="2022-03-24T11:19:56 MDT" name="setup" finished-at="2022-03-24T11:20:02 MDT" duration-ms="5385" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCookies()[pri:0, instance:day41.CookiesDemo@2d52216b]" started-at="2022-03-23T20:10:01 MDT" name="testCookies" finished-at="2022-03-23T20:10:02 MDT" duration-ms="90" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testBrokenLinks()[pri:0, instance:day41.BrokenLinksDemo@2d52216b]" started-at="2022-03-24T11:20:02 MDT" name="testBrokenLinks" finished-at="2022-03-24T11:20:10 MDT" duration-ms="8639" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCookies -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:day41.CookiesDemo@2d52216b]" started-at="2022-03-23T20:10:02 MDT" name="tearDown" finished-at="2022-03-23T20:10:02 MDT" duration-ms="159" status="PASS">
+        </test-method> <!-- testBrokenLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day41.BrokenLinksDemo@2d52216b]" started-at="2022-03-24T11:20:10 MDT" name="tearDown" finished-at="2022-03-24T11:20:10 MDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- day41.CookiesDemo -->
+      </class> <!-- day41.BrokenLinksDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
