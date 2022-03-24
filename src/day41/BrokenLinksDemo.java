@@ -9,10 +9,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class BrokenLinks 
+public class BrokenLinksDemo 
 {
 	WebDriver driver;
 	
@@ -37,6 +38,7 @@ public class BrokenLinks
 		List<WebElement> links=driver.findElements(By.tagName("a"));
 		System.out.println("total links are:+" +links.size());
 		
+		int brokenlinks = 0;
 		for(WebElement element:links) 
 		{
 			String url=element.getAttribute("href"); //gives you href attribute of value in string format
@@ -48,16 +50,33 @@ public class BrokenLinks
 			}
 			
 			URL link= new URL(url);
-			HttpURLConnection httpConn= (HttpURLConnection)link.openConnection(); //create an object and take link object to change http connection and return it
-			httpConn.connect(); //connect to server
-			
-			if(httpConn.getResponseCode()>=400) 
+			try 
 			{
-				System.out.println("url"+ "is a broken link");
+				HttpURLConnection httpConn= (HttpURLConnection)link.openConnection(); //create an object and take link object to change http connection and return it
+				httpConn.connect(); //connect to server
+				
+				if(httpConn.getResponseCode()>=400) 
+				{
+					System.out.println("url"+"----is a broken link");
+				}
+				else 
+				{
+					System.out.println("url"+ "----is Not a broken link");
+				}		
+				
+			}
+			catch(Exception e) {
+				
 			}
 		
-		
 		}
+		
+		System.out.println("Number of broken links:" +brokenlinks);
 	}
 	
+	@AfterClass
+	void tearDown() 
+	{
+	driver.quit();	
+	}
 }
