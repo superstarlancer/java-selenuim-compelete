@@ -13,7 +13,7 @@ public class OrangeHrmTest
 {
 	
 	WebDriver driver;
-	LoginPage lp; //object so we can access all methods in LoginPage
+	LoginPage2 lp; //object so we can access all methods in LoginPage
 	
 	@BeforeClass
 	void setUp() 
@@ -27,7 +27,7 @@ public class OrangeHrmTest
 	@Test(priority=1)
 	void test_logo()
 	{
-		lp= new LoginPage(driver); //invoking constructor by passing driver instance in lp object of LoginPage, need object to access all action methods in LoginPage.java
+		lp= new LoginPage2(driver); //invoking constructor by passing driver instance in lp object of LoginPage, need object to access all action methods in LoginPage.java
 		Assert.assertEquals(lp.checkLogoPresence(), true); //if presence true and equal our true condition test will pass
 	}
 	
