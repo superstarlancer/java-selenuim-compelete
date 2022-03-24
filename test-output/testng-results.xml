@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-24T11:19:56 MDT" name="Default suite" finished-at="2022-03-24T11:20:10 MDT" duration-ms="14208">
+  <suite started-at="2022-03-24T17:07:38 MDT" name="Default suite" finished-at="2022-03-24T17:08:01 MDT" duration-ms="23383">
     <groups>
     </groups>
-    <test started-at="2022-03-24T11:19:56 MDT" name="Default test" finished-at="2022-03-24T11:20:10 MDT" duration-ms="14208">
-      <class name="day41.BrokenLinksDemo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:day41.BrokenLinksDemo@2d52216b]" started-at="2022-03-24T11:19:56 MDT" name="setup" finished-at="2022-03-24T11:20:02 MDT" duration-ms="5385" status="PASS">
+    <test started-at="2022-03-24T17:07:38 MDT" name="Default test" finished-at="2022-03-24T17:08:01 MDT" duration-ms="23383">
+      <class name="day41.HeadlessModeTesting">
+        <test-method signature="headlessChrome()[pri:0, instance:day41.HeadlessModeTesting@7c711375]" started-at="2022-03-24T17:07:38 MDT" name="headlessChrome" finished-at="2022-03-24T17:07:43 MDT" duration-ms="4982" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testBrokenLinks()[pri:0, instance:day41.BrokenLinksDemo@2d52216b]" started-at="2022-03-24T11:20:02 MDT" name="testBrokenLinks" finished-at="2022-03-24T11:20:10 MDT" duration-ms="8639" status="PASS">
+        </test-method> <!-- headlessChrome -->
+        <test-method signature="headlessEdge()[pri:0, instance:day41.HeadlessModeTesting@7c711375]" started-at="2022-03-24T17:07:43 MDT" name="headlessEdge" finished-at="2022-03-24T17:07:56 MDT" duration-ms="13065" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBrokenLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:day41.BrokenLinksDemo@2d52216b]" started-at="2022-03-24T11:20:10 MDT" name="tearDown" finished-at="2022-03-24T11:20:10 MDT" duration-ms="123" status="PASS">
+        </test-method> <!-- headlessEdge -->
+        <test-method signature="headlessFirefox()[pri:0, instance:day41.HeadlessModeTesting@7c711375]" started-at="2022-03-24T17:07:56 MDT" name="headlessFirefox" finished-at="2022-03-24T17:08:01 MDT" duration-ms="5277" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- day41.BrokenLinksDemo -->
+        </test-method> <!-- headlessFirefox -->
+      </class> <!-- day41.HeadlessModeTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

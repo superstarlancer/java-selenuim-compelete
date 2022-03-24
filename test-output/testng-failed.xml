@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day41.BrokenLinks">
+      <class name="day41.HeadlessModeTesting">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testBrokenLinks"/>
+          <include name="headlessFirefox"/>
         </methods>
-      </class> <!-- day41.BrokenLinks -->
+      </class> <!-- day41.HeadlessModeTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

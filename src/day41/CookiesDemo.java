@@ -47,9 +47,9 @@ public class CookiesDemo
 		System.out.println("Size of cookies after deleting of new one:\s"+cookies.size());
 		
 		//How to delete all cookies
-		//driver.manage().deleteAllCookies(); //we usually use this in the beginning of the code
-		//cookies=driver.manage().getCookies(); //return type not required Set<Cookie>
-		//System.out.println("Size of cookies after deleting all:\s"+cookies.size());
+		driver.manage().deleteAllCookies(); //we usually use this in the beginning of the code
+		cookies=driver.manage().getCookies(); //return type not required Set<Cookie>
+		System.out.println("Size of cookies after deleting all:\s"+cookies.size());
 	
 	}
 
