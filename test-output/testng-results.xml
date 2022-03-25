@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-25T11:06:51 MDT" name="Default suite" finished-at="2022-03-25T11:06:58 MDT" duration-ms="7409">
+  <suite started-at="2022-03-25T11:08:34 MDT" name="Default suite" finished-at="2022-03-25T11:08:53 MDT" duration-ms="18467">
     <groups>
     </groups>
-    <test started-at="2022-03-25T11:06:51 MDT" name="Default test" finished-at="2022-03-25T11:06:58 MDT" duration-ms="7409">
-      <class name="day42.TakesScreenshotDemo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:day42.TakesScreenshotDemo@5a45133e]" started-at="2022-03-25T11:06:51 MDT" name="setup" finished-at="2022-03-25T11:06:57 MDT" duration-ms="6056" status="PASS">
+    <test started-at="2022-03-25T11:08:34 MDT" name="Default test" finished-at="2022-03-25T11:08:53 MDT" duration-ms="18467">
+      <class name="day42.ReadingPropertiesFile">
+        <test-method is-config="true" signature="readPropertiesfile()[pri:0, instance:day42.ReadingPropertiesFile@5a45133e]" started-at="2022-03-25T11:08:34 MDT" name="readPropertiesfile" finished-at="2022-03-25T11:08:34 MDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="fullpagescreenshot()[pri:1, instance:day42.TakesScreenshotDemo@5a45133e]" started-at="2022-03-25T11:06:57 MDT" name="fullpagescreenshot" finished-at="2022-03-25T11:06:58 MDT" duration-ms="767" status="PASS">
+        </test-method> <!-- readPropertiesfile -->
+        <test-method signature="loginTest()[pri:0, instance:day42.ReadingPropertiesFile@5a45133e]" started-at="2022-03-25T11:08:34 MDT" name="loginTest" finished-at="2022-03-25T11:08:53 MDT" duration-ms="18242" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fullpagescreenshot -->
-        <test-method signature="specificElementScreenshot()[pri:2, instance:day42.TakesScreenshotDemo@5a45133e]" started-at="2022-03-25T11:06:58 MDT" name="specificElementScreenshot" finished-at="2022-03-25T11:06:58 MDT" duration-ms="65" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- specificElementScreenshot -->
-        <test-method signature="specificSectionScreenshot()[pri:3, instance:day42.TakesScreenshotDemo@5a45133e]" started-at="2022-03-25T11:06:58 MDT" name="specificSectionScreenshot" finished-at="2022-03-25T11:06:58 MDT" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- specificSectionScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:day42.TakesScreenshotDemo@5a45133e]" started-at="2022-03-25T11:06:58 MDT" name="tearDown" finished-at="2022-03-25T11:06:58 MDT" duration-ms="139" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day42.ReadingPropertiesFile@5a45133e]" started-at="2022-03-25T11:08:53 MDT" name="tearDown" finished-at="2022-03-25T11:08:53 MDT" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- day42.TakesScreenshotDemo -->
+      </class> <!-- day42.ReadingPropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

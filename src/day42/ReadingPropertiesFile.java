@@ -24,7 +24,7 @@ public class ReadingPropertiesFile {
 	void readPropertiesfile() throws IOException
 	{
 		//Approach 1
-		/*FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\resources\\application.properties"); // opening file in reading mode
+		/*FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"/resources/application.properties"); // opening file in reading mode
 		 
 		Properties pro=new Properties();
 		pro.load(file);  // loading file
