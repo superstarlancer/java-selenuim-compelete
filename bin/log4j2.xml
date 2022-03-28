@@ -2,14 +2,14 @@
 <Configuration status="WARN">
 
 <Properties>
-		<Property name="basePath">./logs</Property>
+		<Property name="basePath">./logs2</Property> <!--current file location-->
 </Properties>
 	
 	
-  <Appenders>
+  <Appenders> <!--describes where exactly we want to generate the logs -->
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-    </Console>
+    </Console> 
     
     <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -18,9 +18,9 @@
      
   </Appenders>
  
- <Loggers>
+ <Loggers> <!--what type of logs we want to generate -->
     <Root level="All">
-          <AppenderRef ref="File"/>   <!--  <AppenderRef ref="File"/>   -->
+          <AppenderRef ref="File"/>   <!--  <AppenderRef ref="File"/> *can alternate File or Console Appender types  -->
       </Root>
   </Loggers>
 

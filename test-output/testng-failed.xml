@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day42.ReadingPropertiesFile">
+      <class name="day42.Log4JLogging">
         <methods>
-          <include name="readPropertiesfile"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="testRegistration"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- day42.ReadingPropertiesFile -->
+      </class> <!-- day42.Log4JLogging -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

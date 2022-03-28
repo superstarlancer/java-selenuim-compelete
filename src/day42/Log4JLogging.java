@@ -14,14 +14,16 @@ import org.testng.annotations.Test;
 public class Log4JLogging {
 
 	WebDriver driver;
-	Logger logger;
+	Logger logger; //we create a Logger object with logger type
 	
 	@BeforeClass
 	void setup()
 	{
-		logger=LogManager.getLogger("Log4JLogging"); //Log configuration
+		//getLogger is a static method that is coming from LogManager class 
+		//we pass the name of the public class "Log4JLogging"
+		logger=LogManager.getLogger("Log4JLogging"); //Log configuration this statement gets the information  from log4j.xml in resources folder
 		
-		System.setProperty("webdriver.chrome.driver", "C://Drivers//chromedriver_win32//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://demo.opencart.com/");
