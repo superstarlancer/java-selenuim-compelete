@@ -14,12 +14,6 @@ public class XPathDemo {
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize(); 
 		
-		System.setProperty("webdriver.chromedriver", "/usr/local/bin/chromedriver");
-		WebDriver driver=new ChromeDriver();
-		
-		driver.get("http://automationpractice.com/index.php");
-		driver.manage().window().maximize(); 
-		
 		//Absolute xpath
 		//driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[2]/form[1]/input[4]")).sendKeys("T-Shirts");
 		//driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[2]/form[1]/button[1]")).click();
