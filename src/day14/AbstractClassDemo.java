@@ -11,11 +11,6 @@ abstract class Animal
 		System.out.println("Runs fast...");
 	}
 	
-	void run() //non-abstract/normal/default method
-	{
-		System.out.println("Runs fast...");
-	}
-	
 	static void sleep()  //static method
 	{
 		System.out.println("sleeps...");
