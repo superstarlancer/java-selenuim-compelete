@@ -19,7 +19,7 @@ public class HandleFrames {
 		
 		int noOfFrames=driver.findElements(By.tagName("iframe")).size();
 		System.out.println("Number of Frames:\s"+noOfFrames);
-		
+		 
 		
 		//to enter frame, add the methods below first
 		driver.switchTo().frame("packageListFrame");
